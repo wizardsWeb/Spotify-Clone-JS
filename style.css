@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+nav {
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    color: white;
+    list-style: none;
+    align-items: center;
+    height: 65px;
+    margin: 0;
+    padding-left: 18px;
+}
+
+.title img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    padding-right: 20px;
+    font-size: 1rem;
+}
+
+nav li {
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.container {
+    background-color: black;
+    color: white;
+    margin-left: 255px;
+    margin-right: 255px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-image: url('bg.jpg');
+    min-height: 100vh;
+}
+
+.container .heading{
+    color: white;
+    padding: 30px;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.container .song{
+    display: flex;
+    padding: 10px;
+    width: 50%;
+    background-color: white;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 200px;
+    color: black;
+    margin-left: 40px;
+    align-items: center;
+}
+
+.container .songlist{
+    height: 50px;
+    background-color: white;
+    color: black;
+}
+
+.song .name{
+    width: 400px;
+    padding-left: 30px;
+}
+
+.icon{
+    padding-right: 30px;
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 10px;
+}
+
+.song .time{
+    padding-left: 20px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.song .play{
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.songlist1 {
+    padding-bottom: 20px;
+}
+
+.icon img{
+    border-radius: 15px;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+footer input {
+    width: 75%;
+    padding: 10px;
+}
+
+footer .songInfo{
+    position: absolute;
+    left: 10vw;
+    padding-top: 15px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.songInfo img{
+    padding-right: 10px;
+    padding-left: 35px;
+    transition: 0.3s;
+    align-items: center;
+    padding-top: 5px;
+    opacity: 0;
+}
+
+footer .icons{
+    cursor: pointer;
+    padding: 5px;
+}
+
+#myProgressBar {
+    cursor: pointer;
+}
